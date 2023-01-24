@@ -1,0 +1,113 @@
+body {
+
+    background: black;
+}
+
+head {
+    display: inline;
+    word-wrap: normal;
+    width: 80vw;
+    height: 5vw;
+    padding-bottom: 10px;
+}
+
+#name {
+    font-size: 3rem;
+    padding-left: 5vw;
+    margin-right: 10vw;
+    color: aliceblue;
+    /* background: linear-gradient(90deg, #deb821, #ff0000, #0033ff, #ff0073, #deb821);
+     */
+    /* background: linear-gradient(90deg, black, blue, red, yellow, red, blue, black);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: anim 30s linear infinite; */
+}
+
+@keyframes anim {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+#cm {
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-right: 3vw;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#pr {
+    font-size: 2vw;
+    text-decoration: none;
+    margin-top: 3vw;
+    margin-left: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid; */
+    margin-top: 5vw;
+    margin-left: 18vw;
+    margin-right: 10vw;
+    width: 60vw;
+
+    /* background: linear-gradient(to right, red, purple);
+    padding: 3px; */
+}
+
+.module {
+    background: transparent;
+    color: white;
+    padding: 2rem;
+}
+
+
+#wel {
+    font-size: 7rem;
+    font-family: "Montserrat Medium";
+    max-width: 40ch;
+    text-align: center;
+    /* transform: scale(0); */
+    /* animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+     */
+    background: linear-gradient(90deg, #deb821, #d65151, #0033ff, #ff0073, #deb821);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: anim 10s linear infinite;
+    -webkit-text-stroke: 2px black;
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+#para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    -webkit-text-stroke: 1px rgb(21, 94, 222);
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: 'Allerta Stencil'
+
+
+}
